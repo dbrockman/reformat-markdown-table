@@ -12,6 +12,9 @@ process.stdin.on('readable', function() {
   if (chunk !== null) {
     input += chunk;
   }
+  else if (!input) {
+    process.exit();
+  }
 });
 
 process.stdin.on('end', function() {
