@@ -1,0 +1,32 @@
+{
+  "name": "reformat-markdown-table",
+  "version": "1.0.0",
+  "description": "Reformat and align markdown tables",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin": {
+    "reformat-markdown-table": "bin/reformat-markdown-table.js"
+  },
+  "scripts": {
+    "test": "eslint . && istanbul cover --report lcov _mocha -- --ui bdd --check-leaks --recursive --slow 50 --reporter spec test",
+    "lint": "eslint .",
+    "coveralls": "cat ./coverage/lcov.info | coveralls"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://dbrockman@github.com/dbrockman/reformat-markdown-table.git"
+  },
+  "author": "David Brockman Smoliansky",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbrockman/reformat-markdown-table/issues"
+  },
+  "homepage": "https://github.com/dbrockman/reformat-markdown-table",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "coveralls": "^2.11.1",
+    "eslint": "^0.8.1",
+    "istanbul": "^0.3.2",
+    "mocha": "^1.21.4"
+  }
+}

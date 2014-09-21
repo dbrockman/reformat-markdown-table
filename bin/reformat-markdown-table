@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+'use strict';
+
+var reformat = require('../lib/reformat-table.js'),
+    input = '';
+
+process.stdin.setEncoding('utf8');
+
+process.stdin.on('readable', function() {
+  var chunk = process.stdin.read();
+  if (chunk !== null) {
+    input += chunk;
+  }
+});
+
+process.stdin.on('end', function() {
+  var output = reformat(input);
+  process.stdout.write(output);
+});

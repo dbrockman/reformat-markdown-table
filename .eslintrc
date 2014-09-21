@@ -1,0 +1,73 @@
+---
+  env:
+    node: true
+
+  rules:
+
+    brace-style:
+      - 2
+      - "stroustrup"
+
+    func-style:
+      - 2
+      - "declaration"
+
+    guard-for-in: 2
+
+    no-floating-decimal: 2
+
+    no-nested-ternary: 2
+
+    radix: 2
+
+    valid-jsdoc:
+      - 1
+      -
+        requireReturn: false
+        # prefer:
+        #   return: "return"
+
+    wrap-iife: 2
+
+    camelcase: 0
+
+    quotes:
+      - 1
+      - "single"
+      - "avoid-escape"
+
+    # Warn about console logging
+    no-console: 1
+
+    no-use-before-define: 0
+
+    no-underscore-dangle: 0
+
+    handle-callback-err: 1
+
+    # Allow mixed-requires for now
+    no-mixed-requires: 0
+
+    # Err if string is concatenated with _dirname or _filename. Use path module.
+    no-path-concat: 2
+
+    one-var: 2
+
+    space-infix-ops: 1
+
+    no-unused-vars:
+      - 2
+      -
+        vars: "all"  # checks all variables for usage, including those in the global scope
+        args: "none" # do not check arguments
+
+    # Allow use of process.exit()
+    no-process-exit: 0
+
+    # Warn if "use strict" is omitted
+    strict: 2
+
+    no-extra-strict: 2
+
+    # Allow global strict in node projects since each file has its own function scope
+    no-global-strict: 0

@@ -1,0 +1,9 @@
+language: node_js
+before_install:
+  - 'npm install'
+node_js:
+  - "0.10"
+script:
+  - npm test
+after_success:
+  - npm run coveralls
