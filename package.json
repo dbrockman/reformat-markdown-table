@@ -5,7 +5,7 @@
   "main": "index.js",
   "preferGlobal": true,
   "bin": {
-    "reformat-markdown-table": "bin/reformat-markdown-table.js"
+    "reformat-markdown-table": "bin/reformat-markdown-table"
   },
   "scripts": {
     "test": "eslint . && istanbul cover --report lcov _mocha -- --ui bdd --check-leaks --recursive --slow 50 --reporter spec test",
