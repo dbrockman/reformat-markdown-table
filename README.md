@@ -1,7 +1,10 @@
 # reformat-markdown-table
 
-[![Build Status](https://travis-ci.org/dbrockman/reformat-markdown-table.svg?branch=master)](https://travis-ci.org/dbrockman/reformat-markdown-table)
-[![Coverage Status](https://coveralls.io/repos/dbrockman/reformat-markdown-table/badge.png?branch=master)](https://coveralls.io/r/dbrockman/reformat-markdown-table?branch=master)
+[![Version](http://img.shields.io/npm/v/reformat-markdown-table.svg?style=flat)](https://www.npmjs.org/package/reformat-markdown-table)
+[![Build Status](https://img.shields.io/travis/dbrockman/reformat-markdown-table/master.svg?style=flat)](https://travis-ci.org/dbrockman/reformat-markdown-table)
+[![Coverage Status](http://img.shields.io/coveralls/dbrockman/reformat-markdown-table.svg?style=flat)](https://coveralls.io/r/dbrockman/reformat-markdown-table?branch=master)
+[![Dependency Status](https://david-dm.org/dbrockman/reformat-markdown-table.svg?style=flat)](https://david-dm.org/dbrockman/reformat-markdown-table)
+[![devDependency Status](https://david-dm.org/dbrockman/reformat-markdown-table/dev-status.svg?style=flat)](https://david-dm.org/dbrockman/reformat-markdown-table#info=devDependencies)
 
 Reformat and align markdown tables
 
