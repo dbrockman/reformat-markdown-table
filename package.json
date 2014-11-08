@@ -1,6 +1,6 @@
 {
   "name": "reformat-markdown-table",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Reformat and align markdown tables",
   "main": "index.js",
   "preferGlobal": true,
