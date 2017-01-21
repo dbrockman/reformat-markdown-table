@@ -1,5 +1,7 @@
 # reformat-markdown-table
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dbrockman/reformat-markdown-table.svg)](https://greenkeeper.io/)
+
 [![Version](http://img.shields.io/npm/v/reformat-markdown-table.svg?style=flat)](https://www.npmjs.org/package/reformat-markdown-table)
 [![Build Status](https://img.shields.io/travis/dbrockman/reformat-markdown-table/master.svg?style=flat)](https://travis-ci.org/dbrockman/reformat-markdown-table)
 [![Coverage Status](http://img.shields.io/coveralls/dbrockman/reformat-markdown-table.svg?style=flat)](https://coveralls.io/r/dbrockman/reformat-markdown-table?branch=master)
