@@ -1,11 +1,11 @@
 {
-  "name": "reformat-markdown-table",
-  "version": "1.1.0",
-  "description": "Reformat and align markdown tables",
+  "name": "reformat-markdown-table-cn",
+  "version": "1.2.0",
+  "description": "Reformat and align markdown tables with Chinese",
   "main": "index.js",
   "preferGlobal": true,
   "bin": {
-    "reformat-markdown-table": "bin/reformat-markdown-table"
+    "reformat-markdown-table-cn": "bin/reformat-markdown-table-cn"
   },
   "scripts": {
     "test": "eslint . && istanbul cover --report lcov _mocha -- --ui bdd --check-leaks --recursive --slow 50 --reporter spec test",
@@ -14,14 +14,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://dbrockman@github.com/dbrockman/reformat-markdown-table.git"
+    "url": "https://github.com/wangding/reformat-markdown-table.git"
   },
   "author": "David Brockman Smoliansky",
+  "contributors": [
+    "wangding <408542507@qq.com> (https://github.com/wangding)"
+  ],  
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/dbrockman/reformat-markdown-table/issues"
+    "url": "https://github.com/wangding/reformat-markdown-table/issues"
   },
-  "homepage": "https://github.com/dbrockman/reformat-markdown-table",
+  "homepage": "https://github.com/wangding/reformat-markdown-table",
   "devDependencies": {
     "chai": "^1.9.1",
     "coveralls": "^2.11.1",
