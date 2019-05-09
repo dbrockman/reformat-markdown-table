@@ -24,4 +24,22 @@ describe('reformat-table', function() {
     expect(reformat(input)).to.eql(output);
   });
 
+  it('should reformat a markdown table with chinese', function() {
+    var input = [
+      '| 第一个表头 1 |   表头 2   | Header 3|H|',
+      '| --- | --- | :---: | :---: |',
+      '| aaa |bbb| 中文3 | 中文4 |',
+      '   |   eee |fff'
+    ].join('\n'),
+    output = [
+      '| 第一个表头 1 | 表头 2 | Header 3 |   H   |',
+      '|--------------|--------|:--------:|:-----:|',
+      '| aaa          | bbb    |   中文3  | 中文4 |',
+      '| eee          | fff    |          |       |',
+      ''
+    ].join('\n');
+
+    expect(reformat(input)).to.eql(output);
+  });
+
 });
